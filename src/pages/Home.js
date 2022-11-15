@@ -30,7 +30,7 @@ export default function Home() {
                         <p><span><strong>Languages: </strong>Java, JavaScript</span></p>
                     </li>
                     <li>
-                        <p><span><strong>Web: </strong>HTML, CSS, Bootstrap, HTTP, SPA, RESTful API, Axios, JWT</span></p>
+                        <p><span><strong>Web: </strong>HTML, CSS, Bootstrap, Axios, HTTP, SPA, JWT</span></p>
                     </li>
                     <li>
                         <p><span><strong>Web Services: </strong>RESTful API, JSON</span></p>

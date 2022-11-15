@@ -10,10 +10,7 @@
     /* height: calc(100vh - 300px); */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* text-align: center; */
-    /* background-color: #21325e; */
     color: #f0f0f0;
     flex: 2;
 }
@@ -44,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 90px;
 }
 
 .skills h1 {
@@ -122,6 +120,7 @@
     .skills {
         font-size: 20px;
         padding-top: 10px;
+        padding-bottom: 50px;
     }
 
     .about-split {
