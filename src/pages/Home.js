@@ -1,4 +1,5 @@
 import React from 'react';
+import { IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -12,9 +13,11 @@ export default function Home() {
                     <h2>Hi, I'm Jared</h2>
                     <div className='prompt'>
                         <p>A recent full-stack coding bootcamp graduate with a passion for learning and creating.</p>
-                        <LinkedInIcon />
-                        <GitHubIcon />
-                        <EmailIcon />
+                        <IconButton>
+                            <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/jarednjk/', '_blank')}  />
+                            <GitHubIcon onClick={() => window.open('https://github.com/jarednjk/', '_blank')} />
+                            <EmailIcon onClick={() => window.open('mailto:jarednjk@email.com', '_blank')} />
+                        </IconButton>
                     </div>
                 </div>
                 <div className='image'>
