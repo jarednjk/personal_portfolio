@@ -5,7 +5,7 @@ import project3 from '../assets/project3.jpg';
 
 export const ProjectList = [
     {
-        name: "Dog Adoption CRUD Site",
+        name: "Dog Adoption CRUD Website",
         image: project2,
         skills: "JavaScript, MongoDB, ExpressJS ReactJS, NodeJS, React-Bootstrap, RESTful API, HTTP, Axios",
         link: "https://github.com/jarednjk/dog-adoption-tgc18-react"
