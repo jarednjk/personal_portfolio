@@ -1,10 +1,10 @@
 .project {
     width: 100%;
-    /* height: calc(100vh - 100px); */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 127px;
 }
 
 .project h1 {
@@ -13,8 +13,38 @@
     font-size: 35px;
 }
 
+.repo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border: 2px solid #3e497a;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3e497a;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.repo:hover {
+    color: #fff;
+    background-color: #3e497a;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    color: white;
+}
+
+.repo:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.repo h2 {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
 .project img {
-    width: 450px;
+    width: 480px;
     height: 300px;
     border-radius: 10px;
     object-fit: cover;
@@ -26,6 +56,12 @@
 }
 
 .project svg {
-    font-size: 60px;
-    color: #3e497a;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .project img {
+        width: 368px;
+        height: 230px;
+    }
 }

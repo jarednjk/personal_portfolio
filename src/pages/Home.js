@@ -10,7 +10,7 @@ export default function Home() {
         <div className='home'>
             <div className='about-split'>
                 <div className='about'>
-                    <h2>Hi, I'm Jared</h2>
+                    <h2>Hi, I'm Jared.</h2>
                     <div className='prompt'>
                         <p>A recent full-stack coding bootcamp graduate with a passion for learning and creating.</p>
                         <IconButton>
@@ -33,16 +33,16 @@ export default function Home() {
                         <p><span><strong>Languages: </strong>Java, JavaScript</span></p>
                     </li>
                     <li>
-                        <p><span><strong>Web: </strong>HTML, CSS, Bootstrap, Axios, HTTP, SPA, JWT</span></p>
+                        <p><span><strong>Web: </strong>HTML, CSS, Bootstrap, React-Bootstrap, Axios, HTTP, SPA, JWT</span></p>
                     </li>
                     <li>
                         <p><span><strong>Web Services: </strong>RESTful API, JSON</span></p>
                     </li>
                     <li>
-                        <p><span><strong>Frameworks & Libraries: </strong>ReactJS, NodeJS, ExpressJS, Leaflet, NPM</span></p>
+                        <p><span><strong>Frameworks & Libraries: </strong>ReactJS, NodeJS, ExpressJS, Leaflet, NPM, BookshelfJS</span></p>
                     </li>
                     <li>
-                        <p><span><strong>Databases: </strong>MySQL, MongoDB</span></p>
+                        <p><span><strong>Databases: </strong>MySQL, MongoDB, DBeaver</span></p>
                     </li>
                     <li>
                         <p><span><strong>Tools: </strong>Visual Studio Code, NetBeans, Gitpod, Postman</span></p>
