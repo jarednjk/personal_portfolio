@@ -21,7 +21,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='image'>
-                    <img className='image-size' src={require('../img/about.jpg')}></img>
+                    <img className='image-size' src={require('../img/about.jpg')} alt='Jared'></img>
                 </div>
             </div>
 
@@ -43,6 +43,9 @@ export default function Home() {
                     </li>
                     <li>
                         <p><span><strong>Databases: </strong>MySQL, MongoDB, DBeaver</span></p>
+                    </li>
+                    <li>
+                        <p><span><strong>Deployments: </strong>Git, Netlify, Heroku</span></p>
                     </li>
                     <li>
                         <p><span><strong>Tools: </strong>Visual Studio Code, NetBeans, Gitpod, Postman</span></p>
