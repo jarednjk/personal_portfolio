@@ -12,6 +12,9 @@ export default function ProjectDisplay() {
             <h1>{project.name}</h1>
             <img src={project.image} alt='project'/>
             <p>
+                <b>Description:</b> {project.description}
+            </p>
+            <p className='project-skills'>
                 <b>Skills:</b> {project.skills}
             </p>
             <a style={{ textDecoration: 'none' }} href={project.link} target='_blank' rel='noreferrer'>

@@ -50,9 +50,15 @@
     object-fit: cover;
 }
 
-.project p {
+.project-skills {
     font-size: 25px;
     color: #3e497a;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 25px;
+    width: 80%;
 }
 
 .project svg {
@@ -60,8 +66,32 @@
 }
 
 @media only screen and (max-width: 600px) {
+    /* .project {
+        padding-bottom: 0;
+    } */
+
     .project img {
         width: 368px;
         height: 230px;
+    }
+
+    .project-skills {
+        padding: 0px;
+        font-size: 20px;
+        color: #3e497a;
+    }
+
+    .project svg {
+        font-size: 25px;
+    }
+
+    .repo h2 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 100%;
     }
 }
