@@ -3,6 +3,7 @@ import { IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import '../styles/Home.css';
 
 export default function Home() {
@@ -13,11 +14,21 @@ export default function Home() {
                     <h2>Hi, I'm Jared.</h2>
                     <div className='prompt'>
                         <p>A recent full-stack coding bootcamp graduate with a passion for learning and creating.</p>
-                        <IconButton>
-                            <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/jarednjk/', '_blank')}  />
-                            <GitHubIcon onClick={() => window.open('https://github.com/jarednjk/', '_blank')} />
-                            <EmailIcon onClick={() => window.open('mailto:jarednjk@email.com', '_blank')} />
-                        </IconButton>
+                        <div className='cv-icons'>
+                            <a className='download-button' href="JaredNg_FullStackJrDev_2022.pdf" download>
+                                <div className='download-cv'>
+                                    <FileDownloadIcon className='download-icon' /><p className='download-cv-word'><span className='hidden-mobile'>Download</span> CV</p>
+                                </div>
+                            </a>
+                            <div className='svg-icons'>
+                                <IconButton>
+                                    <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/jarednjk/', '_blank')} />
+                                    <GitHubIcon onClick={() => window.open('https://github.com/jarednjk/', '_blank')} />
+                                    <EmailIcon onClick={() => window.open('mailto:jarednjk@email.com', '_blank')} />
+                                </IconButton>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <div className='image'>

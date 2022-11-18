@@ -27,8 +27,52 @@
     font-size: 30px;
 }
 
-.prompt svg {
-    font-size: 60px;
+.cv-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-button {
+    text-decoration: none;
+    color: white;
+}
+
+.download-cv svg {
+    font-size: 30px !important;
+}
+
+.download-cv svg:hover {
+    color: #3e497a;
+}
+
+.download-cv {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 10px 0 5px;
+}
+
+.download-cv:hover {
+    color: #3e497a !important;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.download-cv:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.download-cv-word {
+    font-size: 20px;
+    margin: 15px 0 15px 10px;
+}
+
+.svg-icons svg {
+    font-size: 50px;
     margin: 5px;
     color: white;
 }
@@ -88,6 +132,10 @@
         font-size: 25px;
         width: 85%;
         margin-top: -20px;
+    }
+
+    .hidden-mobile {
+        display: none;
     }
 
     .image {
