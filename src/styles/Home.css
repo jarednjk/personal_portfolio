@@ -3,6 +3,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    overflow-x: hidden;
 }
 
 .about {
@@ -118,7 +119,7 @@
 
 .image-size {
     padding-top: 65px;
-    max-width: 300px;
+    width: 300px;
     object-fit: cover;
 }
 
