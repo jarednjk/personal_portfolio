@@ -17,7 +17,7 @@ export default function ProjectDisplay() {
             <p className='project-skills'>
                 <b>Skills:</b> {project.skills}
             </p>
-            <a style={{ textDecoration: 'none' }} href={project.link} target='_blank' rel='noreferrer'>
+            <a style={{ textDecoration: 'none'}} href={project.link} target='_blank' rel='noreferrer'>
                 <div className='repo'>
                     <GitHubIcon /> <h2>Repo Link </h2>
                 </div>

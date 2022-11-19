@@ -94,7 +94,7 @@
 
 .skills .list {
     list-style: none;
-    width: 84%;
+    width: 85%;
     margin-top: -50px;
 }
 
@@ -118,7 +118,7 @@
 
 .image-size {
     padding-top: 65px;
-    width: 300px;
+    max-width: 300px;
     object-fit: cover;
 }
 
@@ -159,6 +159,10 @@
         width: 81%;
     }
 
+    .cv-icons {
+        justify-content: space-between;
+    }
+
     .skills {
         text-align: center;
     }
@@ -185,6 +189,10 @@
 
     .image-size {
         width: 315px;
+    }
+
+    .skills .list {
+        width: 98%;
     }
 
     .list span {
